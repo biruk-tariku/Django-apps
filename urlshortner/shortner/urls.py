@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-bura
+bura 
 
 urlpatterns = [
     path('', views.index, name='index'),
