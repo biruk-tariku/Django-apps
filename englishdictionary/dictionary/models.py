@@ -1,4 +1,3 @@
 from django.db import models
 
-class modelist(models,model):
-  bura :  
+class modelist(models,
