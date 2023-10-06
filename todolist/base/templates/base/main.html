@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+
+    <style>
+        body {
+            background-color: #fafafa;
+            padding-top: 50px;
+        }
+
+        /* h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+            {
+        font-family: 'ralway', sans serif;
+        } */
+
+        .container {
+            max-width: 550px;
+            margin: auto;
+            background-color: #fff;
+
+        }
+
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            color: blue;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            background-color: linear-gradient(90deg, blue, violet, gray, 10%);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        {% block content %}
+
+
+        {% endblock content %}
+
+    </div>
+
+
+</body>
+
+</html>
