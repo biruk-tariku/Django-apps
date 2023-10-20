@@ -38,7 +38,6 @@ class product(models.Model):
     sale_price = models.DecimalField(default=0, decimal_places=2, max_digits=6)
 
 
-
     def __str__(self):
         return self.name 
 
