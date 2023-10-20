@@ -42,6 +42,7 @@ class product(models.Model):
         return self.name 
 
 
+
 class order(models.Model):
     product = models.ForeignKey(product, on_delete=models.CASCADE)
     customer = models.ForeignKey(customer, on_delete=models.CASCADE)
