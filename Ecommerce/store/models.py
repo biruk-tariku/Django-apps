@@ -19,6 +19,7 @@ class customer(models.Model):
     phone = models.CharField(max_length=10)
     email = models.EmailField(max_length=100)
     password = models.CharField(max_length=100)
+    
 
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
